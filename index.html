@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina principal</title>
+    <style>
+      p{
+        /*  aplicar colores al texto*/
+        color:red ;
+      }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 <body>
 <!-- Imagenes -->
@@ -20,27 +30,46 @@
  </a>
 
    <!-- Tag de textos -->
- <p>
+ <p class="pDiferente">
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
     Similique perferendis autem inventore, eos quam accusamus quae. 
     Dicta eligendi sunt fuga ex molestiae repellendus ad sint, vitae, 
     minima dolores tenetur quia?
  </p>
+ <p class="pAlexa">
+  clase alexa Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+  Similique perferendis autem inventore, eos quam accusamus quae. 
 
+<div class="divRGBA"> 
+    <p style="color: yellow;">
+      RGBA Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+      Similique perferendis autem inventore, eos quam accusamus quae. 
+      Dicta eligendi sunt fuga ex molestiae repellendus ad sint, vitae, 
+      minima dolores tenetur quia?
+</div>
+
+<div class="divHSL"> 
+  <p style="color: yellow;">
+    HSL Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    Similique perferendis autem inventore, eos quam accusamus quae. 
+    Dicta eligendi sunt fuga ex molestiae repellendus ad sint, vitae, 
+    minima dolores tenetur quia?
+</div>
+
+</p>
  <!-- Textos en negritas -->
-  <p>negrita sin semantica</p>
-  <br>
-  <strong>Negrita con peso semantico</strong>
+  <p class="pDiferente">negrita sin semantica</p>
+  <strong class="negritaSemantica"> Negrita con peso semantico</strong><br>
 
-  <i>Cursiva sin semantica</i>
-  <em>cursiva con semantica (si la busca la IA)</em>
+  <i>Cursiva sin semantica</i><br>
+  <em class="colorRGB">color RGB Cursiva con semantica (si la busca la IA)</em>
 
   <!-- Textos pequeños -->
 <!-- Tag en linea -->
-   <small>Texto pequeño</small>
-   <ins>texto subrayado</ins>
-   <del>texto tachado</del>
-   <mark>texto con resaltador</mark>
+   <small>Texto pequeño</small><br>
+   <ins>texto subrayado</ins><br>
+   <del>texto tachado</del><br>
+   <mark>texto con resaltador</mark><br>
 
    <!-- Textos h -->
 <!-- Tag en bloques -->
@@ -48,7 +77,7 @@
     <h2>textos h2</h2>
     <h2>textos h3</h3>
 
-    <p> F <sub>(x)</sub> = 2X <sup>3</sup>+ 4X <sup>2</sup> + 2X </p>
+    <p class="pDiferente"> F <sub>(x)</sub> = 2X <sup>3</sup>+ 4X <sup>2</sup> + 2X </p>
 
     <!-- Enlaces -->
      <h2>Abrir la pagina de la UPC en la misma pestaña</h2>
@@ -73,7 +102,7 @@
         -2X <sup>2</sup>+ 5X -3</p>
 <br>
 <!-- Listas ordenadas -->
- <h2>siga las siguientes instrucciones</h2>
+ <h2>Siga las siguientes instrucciones</h2>
 <ol>
    <li>Gasesosa </li>
    <li>Cafe con leche</li>
@@ -81,7 +110,7 @@
 </ol>
 
 <!-- lista desordenadas -->
- <h2>documentos para las pruebas saber pro</h2>
+ <h2>Documentos para las pruebas saber pro</h2>
  <ul>
    <li>documento de identidad</li>
    <li>pasar los niveles de ingles</li>
@@ -174,6 +203,7 @@ encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="stric
 allowfullscreen></iframe>
 
 </div>
+
 <br>
 
 </body>
